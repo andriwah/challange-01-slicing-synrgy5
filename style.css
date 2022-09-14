@@ -1,0 +1,102 @@
+/* Font */
+body {
+  font-family: Helvetica, sans-serif;
+}
+
+* {
+  z-index: 2;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 3;
+}
+.btn-custom_1 {
+  background: #5cb85f;
+}
+
+/* Hero */
+#hero {
+  height: 100vh;
+  width: 100%;
+  background: #f1f3ff;
+}
+
+.hero-tagline h1 {
+  font-size: 36px;
+}
+
+.btn-custom_2 {
+  background: #5cb85f;
+}
+
+.img-hero {
+  height: 26rem;
+  z-index: 1;
+}
+
+/* Why us? */
+.heading_why-us {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.card_img_why-us {
+  padding: 1.25rem;
+}
+
+.card-text-why_us {
+  font-size: 14px;
+}
+
+/* Rating Review  */
+.card-section {
+  background: #f1f3ff;
+}
+
+.card-img-top {
+  height: 50px;
+  width: 50px;
+}
+
+.card-text {
+  font-size: 12px;
+}
+
+.review-name {
+  font-size: 12px;
+}
+
+#testimonial-section .carousel-control-prev {
+  margin-right: 10px;
+}
+
+#testimonial-section .carousel-control-prev {
+  position: relative;
+  height: 32px;
+  width: 32px;
+  display: inline-flex;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+#testimonial-section .carousel-control-next {
+  position: relative;
+  height: 32px;
+  width: 32px;
+  background: #5cb85f;
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+#testimonial-section .carousel-control-prev > img,
+#testimonial-section .carousel-control-next > img {
+  width: 10px;
+}
+
+/* Getting Started */
+.card-getting {
+  background: #0d28a6;
+}
+
+/*  */
